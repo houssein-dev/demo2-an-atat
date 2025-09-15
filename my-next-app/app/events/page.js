@@ -92,7 +92,7 @@ export default function EventsPage() {
         <Image
           src={images[current]}
           alt="معرض الصور"
-          width={100} /* تم تعديل العرض */
+          width={'100%'} /* تم تعديل العرض */
           height={500}
           style={{ borderRadius: "10px", objectFit: "cover" ,width : "100% !important"}}
         />
