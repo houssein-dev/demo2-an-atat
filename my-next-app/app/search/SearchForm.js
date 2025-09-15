@@ -10,12 +10,12 @@ export default function SearchForm() {
 
   return (
     <form onSubmit={handleSubmit} style={{ marginLeft: "auto", display: "flex", gap: ".5rem" }}>
-      <input
+      {/* <input
         type="search"
         name="query"
         placeholder="ابحث…"
         style={{ padding: ".4rem .6rem", border: "1px solid #ddd", borderRadius: ".4rem" }}
-      />
+      /> */}
       <button type="submit" style={{ padding: ".4rem .6rem" }}>🔍</button>
     </form>
   );
